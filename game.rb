@@ -44,9 +44,9 @@ class Game
       end
       if @current_player.lives == 0
         game_over
-      else   
-        puts  "#{@player1.name}: #{@player1.lives}/3 Vs. #{@player2.name}: #{@player1.lives}/3"
+      else        
         @current_player = @current_player == @player1 ? @player2 : @player1
+        puts  "   #{@player1.name}: #{@player1.lives}/3 Vs. #{@player2.name}: #{@player2.lives}/3"
         puts""
         puts "--------------Next Turn--------------"
       end   
