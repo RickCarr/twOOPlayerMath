@@ -7,7 +7,7 @@ wait and call game.start to start method
 
 
 Game
-  Def initialize initializer
+  Def initialize
     puts "enter player 1 name:"
     @player1 = Players.new(gets.chomp)
     puts "enter player 2 name:"

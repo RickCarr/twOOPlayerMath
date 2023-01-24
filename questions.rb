@@ -1,12 +1,11 @@
 class Question  
-  attr_reader :answer  
+  attr_reader :answer, :text
   
   def initialize()    
     num1 = (1..20).to_a.sample
-    num2 = (1..20).to_a.sample
-    puts num1
+    num2 = (1..20).to_a.sample    
     @answer = num1 + num2
-    puts "What does #{num1} plus #{num2} equal?"
+    @text = "What does #{num1} plus #{num2} equal?"
   end
 end
 

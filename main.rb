@@ -1,9 +1,4 @@
-class Game    
-  def initialize()    
-    puts ""
-  end
-end
+require './game'
 
-=begin  test info:
-
-=end
+game_1 = Game.new()
+game_1.play()
